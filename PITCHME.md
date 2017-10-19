@@ -107,5 +107,5 @@
 ## The exercise 2
 * Along with the code there is an example and the boilerplate code
 * Your code is not yours and you will maintain somebody else
-* You will not purposely know who write what. Just to know how it feels to maintain other people's fantastic code/tests :smiling_imp:
+* You will not purposely know who write what. Just to know how it feels to maintain other people's fantastic code/tests
 * The lazy PO is not sure and may introduce changes under development
