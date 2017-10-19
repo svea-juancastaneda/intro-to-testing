@@ -41,6 +41,8 @@
 - QA
 - Tests just verify what it is documented on the test. The rest is unknown behavior
 - Tests NEED to be maintained - not just to be shut
+---
+## Testing that matters2
 - Tests NEED to be run - an invalid run is an invalid check-in and a NO deploy
 - Tests should be fast
 - Tests cost in time and mental power
