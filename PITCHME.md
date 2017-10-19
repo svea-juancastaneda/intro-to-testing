@@ -31,7 +31,7 @@
  - Regression
  - Security
 - Manual
- - Exploratory :joy::muscle::metal:
+ - Exploratory ;)
 ---
 ## Testing that matters
 - Units
@@ -42,7 +42,7 @@
 - Tests just verify what it is documented on the test. The rest is unknown behavior
 - Tests NEED to be maintained - not just to be shut
 ---
-## Testing that matters2
+## Testing that matters 2
 - Tests NEED to be run - an invalid run is an invalid check-in and a NO deploy
 - Tests should be fast
 - Tests cost in time and mental power
@@ -78,11 +78,13 @@
  * Code reviews
  * Be lazy so reause code. Can copy but not PASTE! except...
  * Allow you to copy/paste once, but twice requires a refactor/reuse
- * Delay decisions as much as possible. Do you really need a database? a cache? optimize? what is the value on those? can they be tested apart?
 ---
 ## Tools 2
+ * Delay decisions as much as possible. Do you really need a database? a cache? optimize? what is the value on those? can they be tested apart?
  * Isolate requests to external apis. Business logic should not depend on a service call. The result of a call can be used as an input to the business object and simulated on the test setup.
-* Have FUN :confused:
+* Have FUN :|
+---
+## Tools 3
 * SOLID
  * S: Single responsability: Things that change together, stick together. High cohesion and low coupling
  * O: Open for extension: Closed for change. GoF: Decorator, Composite, etc
