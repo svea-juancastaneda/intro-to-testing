@@ -1,7 +1,7 @@
-# Workshop on testing
+## Workshop on testing
 ### A very opinionated one
 ---
-# Expectations
+## Expectations
 * What is a test?
 * Why to test?
 * How does a test look like?
@@ -12,7 +12,7 @@
 * Testing sucks, Can it be good?
 * What is in it for me?
 ---
-# Why Testing?
+## Why Testing?
 - Coming from XP 
  - Feedback from the system (Report system changes or not expected behavior)
  - Feedback from the customer/client (Report progress)
@@ -22,7 +22,7 @@
  - End result is a balance
 - Release often, safe and build confidence on code base
 ---
-# Kinds of testing
+## Kinds of testing
 - Automated
  - TDD
  - BDD
@@ -33,7 +33,7 @@
 - Manual
  - Exploratory :joy::muscle::metal:
 ---
-# Testing that matters
+## Testing that matters
 - Units
   - What is a unit?
   - What is worth testing?
@@ -46,30 +46,30 @@
 - Tests cost in time and mental power
  - Make them count by not testing if frameworks work (e.g. Moq)
 ---
-# How can you refactor with unit testing
+### How can you refactor with unit testing
 * Decouple the test for the implementation (what vs how)
 * The test should have as high quality as the production code
 * The test is just an append only file
 ---
-# Anatomy of a unit test
+## Anatomy of a unit test
 * Arrange -> Act  -> Assert
 * Given   -> When -> Then
 ---
-# How it is implemented
+## How it is implemented
 * NUnit/XUnit/MSTest/
  * With Attributes (setup/teardown/test,etc)
 * Use your own class (independent of the framework)
  * Steps
  * Fixture
 ---
-# Organizing the test
+## Organizing the test
 * The test method describes the test
  * Projects/SveaLeasing/_versionControl/changeset/97069#path=%24%2FSveaLeasing%2FBranch%2FDevelopmentBranch%2FSvea.StorePay.Gateway%2FSvea.StorePay.Gateway.Test%2FIdentityServer%2FRequestAuthenticationTests.cs&version=97069&opath=%24%2FSveaLeasing%2FBranch%2FDevelopmentBranch%2FSvea.StorePay.Gateway%2FSvea.StorePay.Gateway.Test%2FIdentityServer%2FRequestAuthenticationTests.cs&oversion=97069&mpath=%24%2FSveaLeasing%2FBranch%2FDevelopmentBranch%2FSvea.StorePay.Gateway%2FSvea.StorePay.Gateway.Test%2FIdentityServer%2FRequestAuthenticationTests.cs&mversion=97069&_a=contents
  * Projects/SveaLeasing/_versionControl#path=%24%2FSveaLeasing%2FSvea.Storepay%2FBranch%2FDevelopment%2FSvea.StorePay.UG%2FSvea.StorePay.ClientStructure%2FClientStructure.Core.Tests%2FHandlers%2FNodePropertiesHandlerTests.cs&_a=contents
 * Test only one thing of the unit
 * Avoid repeting the testing the same thing on other test methods
 ---
-# Tools
+## Tools
 * Think before acting. Coding is the easy part. Abstraction and deduction process is better paid.
 * Good development practices:
  * Software patterns
@@ -78,7 +78,7 @@
  * Allow you to copy/paste once, but twice requires a refactor/reuse
  * Delay decisions as much as possible. Do you really need a database? a cache? optimize? what is the value on those? can they be tested apart?
 ---
-# Tools 2
+## Tools 2
  * Isolate requests to external apis. Business logic should not depend on a service call. The result of a call can be used as an input to the business object and simulated on the test setup.
 * Have FUN :confused:
 * SOLID
@@ -88,7 +88,7 @@
  * I: Interface segregation: Program against interfaces with small surface and narrow scope. No God object/interface.
  * D: Dependency injection: Business and domain classes depend on interfaces that are implemented by things like serialization and determined by a setup. Do not make business code dependent on a IoC Container
 ---
-# The exercise!
+## The exercise!
 * Pair programming
 * 1.5 hrs to implement and compete!
 * 2 runs.
@@ -97,7 +97,7 @@
 * Nice price at the end for the winner
 * Write tests that are readable
 ---
-# The exercise 2
+## The exercise 2
 * Along with the code there is an example and the boilerplate code
 * Your code is not yours and you will maintain somebody else
 * You will not purposely know who write what. Just to know how it feels to maintain other people's fantastic code/tests :smiling_imp:
