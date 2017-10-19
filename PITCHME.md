@@ -91,7 +91,8 @@
  * L: Lizkov substitution: Any subtype can be used instead of the general type
 ---
 ## Tools 4
-* SOLID * I: Interface segregation: Program against interfaces with small surface and narrow scope. No God object/interface.
+* SOLID 
+ * I: Interface segregation: Program against interfaces with small surface and narrow scope. No God object/interface.
  * D: Dependency injection: Business and domain classes depend on interfaces that are implemented by things like serialization and determined by a setup. Do not make business code dependent on a IoC Container
 ---
 ## The exercise!
