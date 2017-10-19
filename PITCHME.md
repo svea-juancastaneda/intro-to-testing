@@ -64,8 +64,8 @@
 ---
 ## Organizing the test
 * The test method describes the test
- * Projects/SveaLeasing/_versionControl/changeset/97069#path=%24%2FSveaLeasing%2FBranch%2FDevelopmentBranch%2FSvea.StorePay.Gateway%2FSvea.StorePay.Gateway.Test%2FIdentityServer%2FRequestAuthenticationTests.cs&version=97069&opath=%24%2FSveaLeasing%2FBranch%2FDevelopmentBranch%2FSvea.StorePay.Gateway%2FSvea.StorePay.Gateway.Test%2FIdentityServer%2FRequestAuthenticationTests.cs&oversion=97069&mpath=%24%2FSveaLeasing%2FBranch%2FDevelopmentBranch%2FSvea.StorePay.Gateway%2FSvea.StorePay.Gateway.Test%2FIdentityServer%2FRequestAuthenticationTests.cs&mversion=97069&_a=contents
- * Projects/SveaLeasing/_versionControl#path=%24%2FSveaLeasing%2FSvea.Storepay%2FBranch%2FDevelopment%2FSvea.StorePay.UG%2FSvea.StorePay.ClientStructure%2FClientStructure.Core.Tests%2FHandlers%2FNodePropertiesHandlerTests.cs&_a=contents
+ * Svea.StorePay.Gateway.Test/IdentityServer/RequestAuthenticationTests.cs
+ * ClientStructure.Core.Tests/Handlers/NodePropertiesHandlerTests.cs
 * Test only one thing of the unit
 * Avoid repeting the testing the same thing on other test methods
 ---
